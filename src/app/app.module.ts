@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ExampleServicesModule } from './example-services/example-services.module';
+import { TutorialModule } from './example-services/tutorial.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +10,7 @@ import { ExampleServicesModule } from './example-services/example-services.modul
   ],
   imports: [
     BrowserModule,
-    ExampleServicesModule
+    TutorialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
